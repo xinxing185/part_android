@@ -22,7 +22,8 @@
             android:name=".MyFlutterActivity"
             android:label="Flutter页"
             android:theme="@style/AppTheme_NoTitle"/>
-        <activity android:name=".MyNativeActivity"/>
+        <activity android:name=".MyNativeActivity" android:label="Native Page"/>
+        <activity android:name=".LoanActivity" android:label="房贷计算器"/>
     </application>
 
 </manifest>
